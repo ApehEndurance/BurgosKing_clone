@@ -1,0 +1,235 @@
+body{
+    margin: 0;
+    font-family: font-family: 'Flamenco', cursive;
+    background-color: #f5ebdc;
+}
+nav{
+    background-color: #f5ebdc;
+    display: flex;
+}
+.header-logo{
+    padding-top: 10px;
+    margin-left: 60px;
+    width: 50px;
+    padding-bottom: 10px;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-a{
+    margin-left: 15px;
+    color:#502315;
+    font-weight: bold;
+    padding: 10px 8px 10px 8px;
+}
+.nav-a:hover{
+    padding: 10px 8px 10px 8px;
+    color: orangered;
+    border-radius: 15px;
+    background-color: #c3bbaf30;
+    border-style: none;
+    
+}
+.nav-a:active{
+    color: white;
+    background-color: red;
+}
+a:link{
+    text-decoration: none;
+}
+.coupons-text-link{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.first-struc{
+    display: flex;
+    background-image: url(/IMG/Savers-Special_Web-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 65px;
+    margin-right: 0;
+}
+
+.get-button{
+    color: #502315;
+    margin-left: 90px;
+    margin-top: 320px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+}
+.coupons-h3{
+    font-weight: bold;
+    color: #502315;
+    font-size: 30px;
+}
+.coupons-link{
+    font-weight: bold;
+    margin-top: 40px;
+    color: red;
+}
+div.coupons-imgs{
+    margin-top: 16px;;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.coupons-img{
+    border-radius: 6px;
+    width: 350px;
+    margin-left: 16px;
+}
+.second-struc{
+    display: flex;
+    background-color: #efe0cc;
+    height: 200px;
+    width: 700px;
+    margin: auto;
+    margin-top: 25px;
+    padding: 30px 170px 30px 240px;
+}
+.first-innersection{
+    margin-left: -170px;
+}
+.section2-h3{
+   color: #502315;
+   font-size: 36px;
+   margin-bottom: 0;
+   font-family: font-family: 'Flamenco', cursive;
+
+}
+.section2-p{
+    color: #502314cc;
+    font-size: 17px;
+    margin-top: 0;
+    font-weight: bold;
+ }
+ 
+ .search-bar{
+    display: block;
+    background-color: white;
+    height: 30px;
+    padding: 25px 330px 25px 18px;
+    border: none;
+    border-radius: 8px;
+ }
+ .search-bar::placeholder{
+    color: #502315;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: font-family: 'Flamenco', cursive;
+}
+
+.location-button{
+    position: relative;
+    top: -38px;
+    left: 450px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+ 
+ 
+.sec-img{
+    width: 250px;
+    margin-left: 200px;
+}
+.third-struc{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+}
+.news{
+    font-size: 30px;
+    margin-left: 89px;
+    margin-top: 50px;
+    color:#502315;
+}
+.third-structure-innersection{
+    margin-left: 80px;
+    margin-top: 0px;
+}
+.third-structure-img{
+   width: 350px;
+   border-radius: 6px;
+}
+.third-structure-h3{
+    font-weight: bolder;
+    color:#502315;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: font-family: 'Flamenco', cursive;
+    margin-top: 10px;
+}
+.third-structure-p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #502315;
+    margin-top: -9px;
+    
+}
+footer{
+    background-color: #502315;
+}
+.footer-structure{
+    display: flex;
+    margin-top: 40px;
+    padding-top: 34px;
+}
+.footer-logo{
+    margin-left: 70px;
+    width: 200px;
+    margin-bottom: 120px;;
+}
+.footer-info{
+    margin-left: 250px;
+}
+.footer-h3{
+    color:white;
+    margin-left: 97px;
+    font-size: 22px;
+
+}
+ul li{
+    
+    list-style: none;
+    margin-bottom: 12px;
+    margin-left: 60px;
+}
+
+ul li a{
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+hr{
+    width: 1160px;
+    margin-bottom: 10px;
+    
+}
+.copyright-section{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright-text{
+    color: white;
+    font-size: 12px; 
+    margin-left: 70px;
+}
+.footer-icon{
+    margin-right: 112px;
+}
+.footer-ul{
+    display: flex;
+}
+.footer-li{
+    margin-right: -32px;
+}

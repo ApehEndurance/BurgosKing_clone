@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    font-family: font-family: 'Flamenco', cursive;
+    background-color: #f5ebdc;
+}
+nav{
+    background-color: #f5ebdc;
+    display: flex;
+}
+.header-logo{
+    padding-top: 10px;
+    margin-left: 100px;
+    width: 50px;
+    padding-bottom: 10px;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-a{
+    margin-left: 15px;
+    color:#502315;
+    font-weight: bold;
+    padding: 10px 8px 10px 8px;
+}
+.nav-a:hover{
+    padding: 10px 8px 10px 8px;
+    color: orangered;
+    border-radius: 15px;
+    background-color: #c3bbaf30;
+    border-style: none;
+    
+}
+.nav-a:active{
+    color: white;
+    background-color: red;
+}
+a:link{
+    text-decoration: none;
+}
+.news-h3{
+    margin-left: 100px;
+    color:#502315;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+.container{
+    flex: 1 1 1;
+    display: flex;
+    justify-content: center;
+}
+.flex-items{
+    margin: 10px;
+
+}
+
+.flex-h3{
+    font-weight: bolder;
+    color:#502315;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: font-family: 'Flamenco', cursive;
+    margin-top: 10px;
+}
+.flex-p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #502315;
+    margin-top: -9px;
+    width: 350px;
+}
+.flex-img{
+    width: 350px;
+   border-radius: 6px;
+}
+footer{
+    background-color: #502315;
+}
+.footer-structure{
+    display: flex;
+    margin-top: 40px;
+    padding-top: 34px;
+}
+.footer-logo{
+    margin-left: 70px;
+    width: 200px;
+    margin-bottom: 120px;;
+}
+.footer-info{
+    margin-left: 250px;
+}
+.footer-h3{
+    color:white;
+    margin-left: 97px;
+    font-size: 22px;
+
+}
+ul li{
+    
+    list-style: none;
+    margin-bottom: 12px;
+    margin-left: 60px;
+}
+
+ul li a{
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+hr{
+    width: 1160px;
+    margin-bottom: 10px;
+    
+}
+.copyright-section{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright-text{
+    color: white;
+    font-size: 12px; 
+    margin-left: 70px;
+}
+.footer-icon{
+    margin-right: 112px;
+}
+.footer-ul{
+    display: flex;
+}
+.footer-li{
+    margin-right: -32px;
+}
